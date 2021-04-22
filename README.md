@@ -9,7 +9,7 @@ Create a To Do App with HTML, CSS and Vanilla JavaScript.
 **PART I: Basic To Do List**
 * Give the User the ability to add an item to the list using a text input and submit button.
 
-* The item inputted should appear on the list. 
+* The item should appear on the list. 
 
 * When selecting an item on the list with a mouse click, the item should toggle complete and incomplete via strikethough or  checked box etc.  
 

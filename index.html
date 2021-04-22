@@ -5,29 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
     <title>To Do App</title>
 </head>
-<body>
-    <h1>To Do App</h1>
-    <div class="toDoEntry">
-        <input type="text" name="toDoInput" id="toDoInput" placeholder="Enter To Do Item.">
-
-        <input type="button" value="submit" id="submitBtn">
-    </div>
-
-
-    <h2>To Do:</h2>
-    <div class="toDoListContainer">
-        
-        <ul id="toDoList">
-            <li class="toDoItem">Walk Car</li>
-            <li class="toDoItem">Fuel Dog</li>
-        </ul>
-    </div>
-    <button id="RmvCompleteBtn">Remove Completed Items</button>
-    <button id="ClearBtn">Clear List</button>
-
+<body class="container">
     
-    <script src="script.js"></script>
+      <h1 class="headline">To Do App</h1>  
+    
+    
+    <div class="main">
+        <form>
+            <input type="text" placeholder="Enter To Do Item.">
+
+            <button type="submit"><i class="fas fa-plus-square"></i></button>
+        </form>
+
+
+        <h2>To Do:</h2>
+        <div class="todoList">
+            <ul> 
+            </ul>
+            <a class="clearAll" id="clearAll">Clear All</a>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
